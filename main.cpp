@@ -82,7 +82,7 @@ int main(int argc, char* argv[]) {
       }
 
 
-      EthArpPacket packet; //first, make an arp request
+      EthArpPacket packet;
 
       packet.eth_.dmac_ = Mac("ff:ff:ff:ff:ff:ff");
       packet.eth_.smac_ = Mac(my_mac);

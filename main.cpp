@@ -109,7 +109,6 @@ int main(int argc, char* argv[]) {
     }
 	
     /* Sender MAC */
-
       struct pcap_pkthdr* header; 
       struct Mac sender_mac;
       const u_char* arp_packet;
